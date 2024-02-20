@@ -19,6 +19,7 @@ public class AutowiredController {
 	public void setAnimal(@Qualifier("dog") Animal animal) {
 		this.animal = animal;
 		//added one sample comment line
+		//added second sample comment line
 	}
 
 	//Construction Injection
